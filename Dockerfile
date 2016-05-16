@@ -12,11 +12,11 @@ WORKDIR $APP_HOME
 COPY package.json $APP_HOME/
 RUN npm install
 
-# Bundle app source
+# Copy our code from the current folder to /app inside the container
 COPY . $APP_HOME
 
-# Make port 8080 available for publish
-EXPOSE 8080
+# Make port 3000 available for publish
+EXPOSE 3000
 
 # Start server
 CMD [ "npm", "start" ]
