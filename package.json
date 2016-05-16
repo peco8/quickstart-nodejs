@@ -1,11 +1,11 @@
 {
-  "name": "docker_web_app",
+  "name": "quickstart-nodejs",
   "version": "1.0.0",
-  "description": "Node.js on Docker",
-  "author": "Toshiki Inami<09c0570@gmail.com>",
-  "main": "server.js",
+  "description": "Getting start in Arukas wih Node.js",
+  "author": "Toshiki Inami<t-inami@arukas.io>",
+  "main": "app.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "express": "^4.13.3"
