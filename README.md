@@ -7,7 +7,7 @@ A simple Node.js app ( using Express.js: Fast, unopinionated, minimalist web fra
 $ git clone https://github.com/peco8/quickstart-nodejs.git
 $ cd quickstart-nodejs
 $ docker build --no-cache --tag quickstart-nodejs .
-$ docker run -rm -d -p 3000:3000 quickstart-nodejs
+$ docker run -d -p 3000:3000 quickstart-nodejs
 ```
 
 Your app should now be running:
