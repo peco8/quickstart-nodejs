@@ -4,7 +4,7 @@ A simple Node.js app ( using [Express.js](http://expressjs.com/): Fast, unopinio
 ## Running locally
 
 ```
-$ git clone https://github.com/peco8/quickstart-nodejs.git
+$ git clone git@github.com:peco8/quickstart-nodejs.git
 $ cd quickstart-nodejs
 $ docker build --no-cache --tag quickstart-nodejs .
 $ docker run -d -p 3000:3000 quickstart-nodejs
