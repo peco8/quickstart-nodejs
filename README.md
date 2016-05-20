@@ -1,5 +1,5 @@
 # quickstart-nodejs
-A simple Node.js app ( using Express.js: Fast, unopinionated, minimalist web framework http://expressjs.com/ ) which can easily be deployed to Arukas.
+A simple Node.js app ( using [Express.js](http://expressjs.com/): Fast, unopinionated, minimalist web framework.) which can easily be deployed to Arukas.
 
 ## Running locally
 
